@@ -2,8 +2,12 @@
 
 ## Descrição
 
-Projetinho com o intuito de aprender a usar metricas e manipular dashboards com Grafana/Prometheus.
+Projetinho web construido em Flask para uso do Prometheus, sendo possivel coletar e expor metricas relacionadas a duas paginas distintas entre si.
 Nesse projeto, foram usados funcoes para criar valores aleatorios para o uso das metricas. Foram criadas as duas metricas, um NUMERO_REQUESTS usando o Counter e outra chamada REQUESTS utilizando o Gauge. Tanto o Gauge quanto o Counter foram importadas da biblioteca prometheus_client.
+
+#
+* nome das paginas: primeira-pagina e segunda-pagina;
+* foram utilizados status_code de 200, 300 ou 500, escolhidos de forma randomica para simulacao de diversas solicitacoes.
 
 
 ## Estrutura do projeto
@@ -28,7 +32,7 @@ Nesse projeto, foram usados funcoes para criar valores aleatorios para o uso das
 
 Pronto, assim será inicializado o Grafana, Prometheus e o app em Flask
 
-* o aplicativo Flask estará disponível em http://localhost:5000
+* o aplicativo Flask estará disponível em http://localhost:5000 (explicarei melhor abaixo)
 * o Prometheus estará disponível em http://localhost:9090
 * o Grafana estará disponível em http://localhost:3000
 
