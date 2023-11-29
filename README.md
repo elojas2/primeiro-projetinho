@@ -3,7 +3,7 @@
 ## Descrição
 
 Projetinho com o intuito de aprender a usar metricas e manipular dashboards com Grafana/Prometheus.
-Nesse projeto s
+Nesse projeto, foram usados funcoes para criar valores aleatorios para o uso das metricas. Foram criadas as duas metricas, um NUMERO_REQUESTS com o Counter e outra chamda REQUESTS com o Gauge. Ambas foram importadas da biblioteca prometheus_client.
 
 
 ## Estrutura do projeto
@@ -56,8 +56,8 @@ como dito anteriormente, esse arquivo contem a aplicacao em Flask e nele contem 
 
 para verificar as metricas, escreve ou cole no navegador a seguinte URL:
 
-http://localhost:5000/metrics
+* http://localhost:5000/metrics
 
 #### Para encerrar
 
-clique com as teclas ``` CTRL + C ``` no terminal:
+clique com as teclas ``` CTRL + C ``` no terminal
