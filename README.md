@@ -3,7 +3,7 @@
 ## Descrição
 
 Projetinho com o intuito de aprender a usar metricas e manipular dashboards com Grafana/Prometheus.
-Nesse projeto, foram usados funcoes para criar valores aleatorios para o uso das metricas. Foram criadas as duas metricas, um NUMERO_REQUESTS com o Counter e outra chamda REQUESTS com o Gauge. Ambas foram importadas da biblioteca prometheus_client.
+Nesse projeto, foram usados funcoes para criar valores aleatorios para o uso das metricas. Foram criadas as duas metricas, um NUMERO_REQUESTS usando o Counter e outra chamada REQUESTS utilizando o Gauge. Tanto o Gauge quanto o Counter foram importadas da biblioteca prometheus_client.
 
 
 ## Estrutura do projeto
