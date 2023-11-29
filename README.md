@@ -45,6 +45,7 @@ Em caso do Grafana pedir usuario e senha:
 
 como dito anteriormente, esse arquivo contem a aplicacao em Flask e nele contem as rotas para diferentes endpoints, são eles:
 
+* http://localhost:5000/metrics
 * http://localhost:5000/start
 * http://localhost:5000/anyeon
 
@@ -56,3 +57,6 @@ metricas existentes no arquivo:
 
 
 
+#### Para encerrar
+
+``` CTRL + C ```
