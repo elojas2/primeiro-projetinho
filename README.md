@@ -1,4 +1,4 @@
-# Nome
+# Primeiro projetinho mexendo com Grafana, prometheus e metricas
 
 ## Descrição
 
@@ -11,7 +11,6 @@ Nesse projeto s
 * app.py: arquivo principal com o codigo da aplicacao Flask
 * dockerfile: arquivo para a construcao de imagem da aplicacao
 * docker-compose.yml: arquivo de configuracao do ambiente de desenvolvimento
-* requirements.txt (?)
 
 ### Requisitos necessarios
 
@@ -50,7 +49,7 @@ como dito anteriormente, esse arquivo contem a aplicacao em Flask e nele contem 
 * http://localhost:5000/primeira-pagina
 * http://localhost:5000/segunda-pagina
 
-para que sejam geradas as metricas, va no navegador e digite ou cole as seguintes URLs:
+#### para que sejam geradas as metricas, va no navegador e digite ou cole as seguintes URLs:
 
 1. http://localhost:5000/primeira-pagina
 2. http://localhost:5000/segunda-pagina
