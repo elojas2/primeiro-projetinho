@@ -2,7 +2,8 @@
 
 ## Descrição
 
-Projetinho com o intuito de aprender a usar metricas e manipular dashboards com Grafana/Prometheus
+Projetinho com o intuito de aprender a usar metricas e manipular dashboards com Grafana/Prometheus.
+Nesse projeto s
 
 
 ## Estrutura do projeto
@@ -46,17 +47,18 @@ Em caso do Grafana pedir usuario e senha:
 como dito anteriormente, esse arquivo contem a aplicacao em Flask e nele contem as rotas para diferentes endpoints, são eles:
 
 * http://localhost:5000/metrics
-* http://localhost:5000/start
-* http://localhost:5000/anyeon
+* http://localhost:5000/primeira-pagina
+* http://localhost:5000/segunda-pagina
 
-metricas existentes no arquivo:
+para que sejam geradas as metricas, va no navegador e digite ou cole as seguintes URLs:
 
-* app_flask_numeros_requests
-* location_requests
+1. http://localhost:5000/primeira-pagina
+2. http://localhost:5000/segunda-pagina
 
+para verificar as metricas, escreve ou cole no navegador a seguinte URL:
 
-
+http://localhost:5000/metrics
 
 #### Para encerrar
 
-``` CTRL + C ```
+clique com as teclas ``` CTRL + C ``` no terminal:
