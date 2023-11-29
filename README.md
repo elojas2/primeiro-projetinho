@@ -17,7 +17,7 @@ Projetinho com o intuito de aprender a usar metricas e manipular dashboards com 
 * Docker
 * Docker compose
 
-## Como executar
+## Passo de como executar
 
 1. clone o repositorio
     ``` git clone https://github.com/elojas2/primeiro-projetinho.git ```
@@ -38,6 +38,20 @@ Pronto, assim será inicializado o Grafana, Prometheus e o app em Flask
 Em caso do Grafana pedir usuario e senha: 
 * o usuario: admin
 * a senha: admin
+
+## Arquivo principal
+
+#### app.py
+
+como dito anteriormente, esse arquivo contem a aplicacao em Flask e nele contem as rotas para diferentes endpoints, são eles:
+
+* http://localhost:5000/start
+* http://localhost:5000/anyeon
+
+metricas existentes no arquivo:
+
+* app_flask_numeros_requests
+* location_requests
 
 
 
